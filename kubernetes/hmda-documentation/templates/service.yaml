@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "hmda-data-browser.fullname" . }}
+  name: {{ include "hmda-documentation.fullname" . }}
   labels:
-    app: {{ include "hmda-data-browser.name" . }}
-    chart: {{ include "hmda-data-browser.chart" . }}
+    app: {{ include "hmda-documentation.name" . }}
+    chart: {{ include "hmda-documentation.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 spec:
@@ -15,7 +15,7 @@ spec:
       protocol: TCP
       name: http
   selector:
-    app: {{ include "hmda-data-browser.name" . }}
+    app: {{ include "hmda-documentation.name" . }}
     release: {{ .Release.Name }}
 
 ---
@@ -23,17 +23,17 @@ apiVersion: v1
 kind: Service
 metadata:
   labels: 
-    service: {{ include "hmda-data-browser.fullname" . }}-ambassador
-  name: {{ include "hmda-data-browser.fullname" . }}-ambassador
+    service: {{ include "hmda-documentation.fullname" . }}-ambassador
+  name: {{ include "hmda-documentation.fullname" . }}-ambassador
   annotations:
     getambassador.io/config: |
       apiVersion: ambassador/v0
       kind: Mapping
       name: data_browser_mapping
       ambassador_id: ambassador-default-1
-      prefix: /data-browser/
-      rewrite: /data-browser/
-      service: {{ include "hmda-data-browser.fullname" . }}:{{ .Values.service.port }}
+      prefix: /documentation/
+      rewrite: /documentation/
+      service: {{ include "hmda-documentation.fullname" . }}:{{ .Values.service.port }}
       timeout_ms: 300000
 spec:
   clusterIP: None  

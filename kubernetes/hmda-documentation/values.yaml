@@ -6,7 +6,7 @@ replicaCount: 1
 commitId: ''
 
 image:
-  repository: hmda/hmda-data-browser
+  repository: hmda/hmda-documentation
   tag: v2.0.1
   pullPolicy: IfNotPresent
 

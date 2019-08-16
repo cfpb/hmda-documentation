@@ -16,7 +16,7 @@ RUN yarn build
 FROM nginx:1.16-alpine
 RUN rm -rf /etc/nginx/conf.d
 COPY nginx /etc/nginx
-COPY --from=build-stage /usr/src/app/build /usr/share/nginx/html/data-browser
+COPY --from=build-stage /usr/src/app/build /usr/share/nginx/html/documentation
 
 ENV NGINX_USER=svc_nginx_hmda
 
