@@ -1,0 +1,38 @@
+{
+  "name": "hmda-documentation",
+  "version": "0.0.1",
+  "description": "UI for browsing HMDA documentation",
+  "author": "Consumer Financial Protection Bureau",
+  "license": "CC0-1.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10.x"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "markdown-to-jsx": "6.10.3",
+    "react": "16.8.4",
+    "react-app-polyfill": "0.1.3",
+    "react-dom": "16.8.4",
+    "react-router-dom": "4.3.1",
+    "react-scripts": "2.1.8"
+  },
+  "homepage": "/documentation/",
+  "browserslist": [
+    "Chrome >= 60",
+    "Safari >= 10.1",
+    "Firefox >= 54",
+    "Edge >= 15",
+    "ie >= 11"
+  ],
+  "devDependencies": {
+    "eslint-plugin-prettier": "3.0.1",
+    "http-proxy-middleware": "0.19.1",
+    "raw-loader": "^3.1.0"
+  }
+}
