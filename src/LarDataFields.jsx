@@ -1,14 +1,20 @@
-import React, { useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import Markdown from 'markdown-to-jsx'
-import LAR_Data_Fields from '!!raw-loader!../markdown/LAR_data_fields.md' //eslint-disable-line import/no-webpack-loader-syntax
+import LoadingIcon from './common/LoadingIcon.jsx'
 
-//const LAR_url = https://
+const url = 'https://raw.githubusercontent.com/cfpb/hmda-documentation/master/markdown/LAR_data_fields.md'
 
 const LarDataFields = () => {
-/*  useEffect(function (){
-    fetch(
-  }, [])*/
+  const [data, setData] = useState(null)
+
   useEffect(function (){
+    fetch(url).then(res => {
+      res.text().then(setData)
+    })
+  }, [])
+
+  useEffect(function (){
+    if(!data) return
     const { hash } = window.location
     if(hash) {
       setTimeout(() => {
@@ -23,7 +29,10 @@ const LarDataFields = () => {
 
   return (
     <div className="Markdown-Wrapper">
-      <Markdown>{LAR_Data_Fields}</Markdown>
+    {data
+      ? <Markdown>{data}</Markdown>
+      : <LoadingIcon/>
+    }
     </div>
   )
 }
