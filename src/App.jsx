@@ -15,7 +15,7 @@ const App = () => {
       <Header/>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/lar-data-fields" component={LarDataFields} />
+        <Route path="/:year/lar-data-fields" component={LarDataFields} />
         <Route component={NotFound} />
       </Switch>
       <Footer />

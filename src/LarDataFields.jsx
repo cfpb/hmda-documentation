@@ -2,13 +2,15 @@ import React, { useState, useEffect } from 'react'
 import Markdown from 'markdown-to-jsx'
 import LoadingIcon from './common/LoadingIcon.jsx'
 
-const url = 'https://raw.githubusercontent.com/cfpb/hmda-documentation/master/markdown/LAR_data_fields.md'
+function makeUrl(year) {
+  return `https://raw.githubusercontent.com/cfpb/hmda-documentation/master/markdown/${year}/LAR_data_fields.md`
+}
 
-const LarDataFields = () => {
+const LarDataFields = props => {
   const [data, setData] = useState(null)
 
   useEffect(function (){
-    fetch(url).then(res => {
+    fetch(makeUrl(props.match.params.year)).then(res => {
       res.text().then(setData)
     })
   }, [])

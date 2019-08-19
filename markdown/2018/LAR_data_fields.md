@@ -123,12 +123,8 @@
   - 3 - Freddie Mac
   - 4 - Farmer Mac
   - 5 - Private securitizer
-  - 6 - Commercial bank
-  - savings bank
-  - or savings association
-  - 71 - Credit union
-  - mortgage company
-  - or finance company
+  - 6 - Commercial bank, savings bank, or savings association
+  - 71 - Credit union, mortgage company, or finance company
   - 72 - Life insurance company
   - 8 - Affiliate institution
   - 9 - Other type of purchaser
@@ -144,10 +140,7 @@
 
 - **Description:** The type of covered loan or application
 - **Values:**
-  - 1 - Conventional (not insured or guaranteed by FHA
-  - VA
-  - RHS
-  - or FSA)
+  - 1 - Conventional (not insured or guaranteed by FHA, VA, RHS, or FSA)
   - 2 - Federal Housing Administration insured (FHA)
   - 3 - Veterans Affairs guaranteed (VA)
   - 4 - USDA Rural Housing Service or Farm Service Agency guaranteed (RHS or FSA)
@@ -375,8 +368,7 @@
 ### [debt\_to\_income\_ratio](#debt_to_income_ratio)
 
 - **Description:** The ratio, as a percentage, of the applicant’s or borrower’s total monthly debt to the total monthly income relied on in making the credit decision
-- **Values:**
-  - Varying values; Ratios binned are:
+- **Varying values; Ratios binned are:**
   - <20%
   - 20%-<30%
   - 30%-<36%,37%
@@ -438,9 +430,7 @@
   - 13 - Cuban
   - 14 - Other Hispanic or Latino
   - 2 - Not Hispanic or Latino
-  - 3 - Information not provided by applicant in mail
-  - internet
-  - or telephone application
+  - 3 - Information not provided by applicant in mail, internet, or telephone application
   - 4 - Not applicable
 
 ### [applicant\_ethnicity-2](#applicant_ethnicity-2)
@@ -497,9 +487,7 @@
   - 13 - Cuban
   - 14 - Other Hispanic or Latino
   - 2 - Not Hispanic or Latino
-  - 3 - Information not provided by applicant in mail
-  - internet
-  - or telephone application
+  - 3 - Information not provided by applicant in mail, internet, or telephone application
   - 4 - Not applicable
   - 5 - No co-applicant
 
@@ -584,9 +572,7 @@
   - 43 - Samoan
   - 44 - Other Pacific Islander
   - 5 - White
-  - 6 - Information not provided by applicant in mail
-  - internet
-  - or telephone application
+  - 6 - Information not provided by applicant in mail, internet, or telephone application
   - 7 - Not applicable
 
 ### [applicant\_race-2](#applicant_race-2)
@@ -693,9 +679,7 @@
   - 43 - Samoan
   - 44 - Other Pacific Islander
   - 5 - White
-  - 6 - Information not provided by applicant in mail
-  - internet
-  - or telephone application
+  - 6 - Information not provided by applicant in mail, internet, or telephone application
   - 7 - Not applicable
   - 8 - No co-applicant
 
@@ -806,9 +790,7 @@
 - **Values:**
   - 1 - Male
   - 2 - Female
-  - 3 - Information not provided by applicant in mail
-  - internet
-  - or telephone application
+  - 3 - Information not provided by applicant in mail, internet, or telephone application
   - 4 - Not applicable
   - 6 - Applicant selected both male and female
 
@@ -818,9 +800,7 @@
 - **Values:**
   - 1 - Male
   - 2 - Female
-  - 3 - Information not provided by applicant in mail
-  - internet
-  - or telephone application
+  - 3 - Information not provided by applicant in mail, internet, or telephone application
   - 4 - Not applicable
   - 5 - No co-applicant
   - 6 - Co-applicant selected both male and female
@@ -845,8 +825,7 @@
 ### [applicant\_age](#applicant_age)
 
 - **Description:** The age, in years, of the applicant or borrower
-- **Values:**
-  - Varying values; Ages binned are:
+- **Varying values; Ages binned are:**
   - 25-34
   - 35-44
   - 45-54
@@ -856,8 +835,7 @@
 ### [co-applicant\_age](#co-applicant_age)
 
 - **Description:** The age, in years, of the first co-applicant or co-borrower
-- **Values:**
-  - Varying values; Ages binned are:
+- **Varying values; Ages binned are:**
   - 25-34
   - 35-44
   - 45-54
@@ -958,8 +936,7 @@
   - 2 - Employment history
   - 3 - Credit history
   - 4 - Collateral
-  - 5 - Insufficient cash (downpayment
-  - closing costs)
+  - 5 - Insufficient cash (downpayment, closing costs)
   - 6 - Unverifiable information
   - 7 - Credit application incomplete
   - 8 - Mortgage insurance denied
@@ -974,8 +951,7 @@
   - 2 - Employment history
   - 3 - Credit history
   - 4 - Collateral
-  - 5 - Insufficient cash (downpayment
-  - closing costs)
+  - 5 - Insufficient cash (downpayment, closing costs)
   - 6 - Unverifiable information
   - 7 - Credit application incomplete
   - 8 - Mortgage insurance denied
@@ -989,8 +965,7 @@
   - 2 - Employment history
   - 3 - Credit history
   - 4 - Collateral
-  - 5 - Insufficient cash (downpayment
-  - closing costs)
+  - 5 - Insufficient cash (downpayment, closing costs)
   - 6 - Unverifiable information
   - 7 - Credit application incomplete
   - 8 - Mortgage insurance denied
@@ -1004,8 +979,7 @@
   - 2 - Employment history
   - 3 - Credit history
   - 4 - Collateral
-  - 5 - Insufficient cash (downpayment
-  - closing costs)
+  - 5 - Insufficient cash (downpayment, closing costs)
   - 6 - Unverifiable information
   - 7 - Credit application incomplete
   - 8 - Mortgage insurance denied
