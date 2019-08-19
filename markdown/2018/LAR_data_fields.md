@@ -41,7 +41,7 @@
 - **Description:** Derived loan product type from Loan Type and Lien Status fields for easier querying of specific records
 - **Values:**
   - Conventional:First Lien
-  - FHA:First Lie
+  - FHA:First Lien
   - VA:First Lien
   - FSA/RHS:First Lien
   - Conventional:Subordinate Lien
