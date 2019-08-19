@@ -23,7 +23,6 @@ const LarDataFields = props => {
         const stripped = hash.replace(/[#_]/g, '')
         const id = stripped + stripped
         const element = document.getElementById(id)
-        console.log(element)
         if (element) setTimeout(()=>element.scrollIntoView(), 0)
       }, 0)
     }
