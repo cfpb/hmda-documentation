@@ -110,3 +110,17 @@ hr {
   display: block;
   margin: 45px 0 -49px 0;
 }
+
+.YearLinksWrapper > a {
+  display: inline-block;
+  color: #212121;
+  font-family: SourceSansProBold;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.YearLinksWrapper > a:hover {
+  color: #0071bc;
+  text-decoration: underline;
+}
