@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Markdown from 'markdown-to-jsx'
+import { Link } from 'react-router-dom'
 import LoadingIcon from './common/LoadingIcon.jsx'
 
 function makeUrl(year) {
@@ -8,9 +9,10 @@ function makeUrl(year) {
 
 const LarDataFields = props => {
   const [data, setData] = useState(null)
+  const { year } = props.match.params
 
   useEffect(function (){
-    fetch(makeUrl(props.match.params.year)).then(res => {
+    fetch(makeUrl(year)).then(res => {
       res.text().then(setData)
     })
   }, [])
@@ -30,6 +32,7 @@ const LarDataFields = props => {
 
   return (
     <div className="Markdown-Wrapper">
+    <Link className="BackLink" to={`/${year}`}>{'\u2b05'} {year} DOCUMENTATION</Link>
     {data
       ? <Markdown>{data}</Markdown>
       : <LoadingIcon/>

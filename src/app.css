@@ -48,6 +48,10 @@ body {
   padding: 0 3rem;
 }
 
+.Markdown-Wrapper h2 {
+  margin-top: 2em;
+}
+
 a {
   color: #0071bc;
   text-decoration: underline;
@@ -104,11 +108,21 @@ hr {
   color: #4c2c92;
 }
 
+.PerYear {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+.PerYear h1 {
+  font-size: 4rem;
+  margin-top: 1em;
+}
+
 .BackLink {
   font-family: SourceSansProBold;
   font-size: 1.3rem;
   display: block;
-  margin: 45px 0 -49px 0;
+  margin: 24px 0 -32px 0;
 }
 
 .YearLinksWrapper > a {
@@ -124,3 +138,8 @@ hr {
   color: #0071bc;
   text-decoration: underline;
 }
+
+.YearLinksWrapper h2 {
+  margin-top: 0;
+}
+
