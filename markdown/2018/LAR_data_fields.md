@@ -1,4 +1,4 @@
-## Full list of public LAR data fields with values and descriptions
+## Public HMDA data fields with values and definitions
 
 ### [activity\_year](#activity_year)
 
@@ -352,6 +352,7 @@
   - 25-49
   - 50-99
   - 100-149
+  - >149
 
 ### [multifamily\_affordable\_units](#multifamily_affordable_units)
 
