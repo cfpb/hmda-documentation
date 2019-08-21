@@ -7,7 +7,6 @@ const slugMap = {
 
 function slugToMarkdown(year, slug) {
   const slugs = slugMap[year]
-  console.log(slugs, slug, slugs[slug])
   return slugs && slugs[slug]
 }
 
@@ -20,6 +19,10 @@ function isBadSlug(year, slug){
   return !slugToMarkdown(year, slug)
 }
 
+function isBadYear(year){
+  return !slugMap[year]
+}
+
 function getMarkdownUrl(year, slug) {
   return `https://raw.githubusercontent.com/cfpb/hmda-documentation/master/markdown/${year}/${slugToMarkdown(year, slug)}`
 }
@@ -27,5 +30,6 @@ function getMarkdownUrl(year, slug) {
 export {
   getMarkdownUrl,
   isBadSlug,
+  isBadYear,
   getAllSlugsPerYear
 }

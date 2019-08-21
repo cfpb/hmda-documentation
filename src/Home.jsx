@@ -15,7 +15,7 @@ class Home extends Component {
           </Header>
         </div>
         <div className="YearLinksWrapper">
-          <Link to="/2018"><h2>2018</h2></Link>
+          <Link to="/2018/"><h2>2018</h2></Link>
           <YearLinks year="2018"/>
         </div>
       </div>

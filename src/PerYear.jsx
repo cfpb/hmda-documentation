@@ -1,12 +1,16 @@
 import React from 'react'
-import Heading from './common/Heading.jsx'
 import { Link } from 'react-router-dom'
+import Heading from './common/Heading.jsx'
+import NotFound from './common/NotFound.jsx'
 import YearLinks from './YearLinks'
+import { isBadYear } from './markdownUtils'
 
 import './Home.css'
 
 const PerYear = props => {
   const { year } = props.match.params
+
+  if(isBadYear(year)) return <NotFound/>
 
   return (
     <div className="PerYear">
