@@ -1,4 +1,4 @@
-## Full list of public LAR data fields with descriptions and values
+## Public HMDA data fields with values and definitions
 
 ### [activity\_year](#activity_year)
 
