@@ -6,7 +6,7 @@ import Home from './Home'
 import PerYear from './PerYear'
 import NotFound from './common/NotFound'
 import Footer from './common/Footer'
-import LarDataFields from './LarDataFields'
+import DynamicRenderer from './DynamicRenderer'
 
 import './app.css'
 
@@ -17,7 +17,7 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/:year/" component={PerYear} />
-        <Route path="/:year/lar-data-fields" component={LarDataFields} />
+        <Route path="/:year/:slug/" component={DynamicRenderer} />
         <Route component={NotFound} />
       </Switch>
       <Footer />

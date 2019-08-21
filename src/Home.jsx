@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Header from './common/Heading.jsx'
 import { Link } from 'react-router-dom'
-import Links2018 from './Links2018'
+import YearLinks from './YearLinks'
 
 import './Home.css'
 
@@ -16,7 +16,7 @@ class Home extends Component {
         </div>
         <div className="YearLinksWrapper">
           <Link to="/2018"><h2>2018</h2></Link>
-          <Links2018/>
+          <YearLinks year="2018"/>
         </div>
       </div>
     )

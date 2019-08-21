@@ -2,17 +2,17 @@ import React, { useState, useEffect } from 'react'
 import Markdown from 'markdown-to-jsx'
 import { Link } from 'react-router-dom'
 import LoadingIcon from './common/LoadingIcon.jsx'
+import NotFound from './common/NotFound.jsx'
+import { getMarkdownUrl, isBadSlug } from './markdownUtils'
 
-function makeUrl(year) {
-  return `https://raw.githubusercontent.com/cfpb/hmda-documentation/master/markdown/${year}/LAR_data_fields.md`
-}
-
-const LarDataFields = props => {
+const DynamicRenderer = props => {
   const [data, setData] = useState(null)
-  const { year } = props.match.params
+  const { year, slug } = props.match.params
+
+  if(isBadSlug(year, slug)) return <NotFound/>
 
   useEffect(function (){
-    fetch(makeUrl(year)).then(res => {
+    fetch(getMarkdownUrl(year, slug)).then(res => {
       res.text().then(setData)
     })
   }, [])
@@ -41,4 +41,4 @@ const LarDataFields = props => {
   )
 }
 
-export default LarDataFields
+export default DynamicRenderer

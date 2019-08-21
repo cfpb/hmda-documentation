@@ -140,6 +140,10 @@ hr {
 }
 
 .YearLinksWrapper h2 {
-  margin-top: 0;
+  margin: 0;
 }
 
+.YearLink {
+  text-transform: capitalize;
+  margin-top: 0.25em;
+}
