@@ -98,3 +98,46 @@ _This guide explains fields that are included in public HMDA data collected in 2
   - No
   - NA
 
+## Census fields produced by the U.S. Census Bureau and appended to public HMDA Data
+
+### [tract\_population](#tract_population)
+
+- **Description:** Total population in tract
+- **Values:**
+  - Varying values
+ 
+### [tract\_minority\_population\_percent](#tract_minority_population_percent)
+
+- **Description:** Percentage of minority population to total population for tract, rounded to two decimal places
+- **Values:**
+  - Varying values
+
+### [ffiec\_msa\_md\_median\_family\_income](#ffiec_msa_md_median_family_income)
+
+- **Description:** FFIEC Median family income in dollars for the MSA/MD in which the tract is located (adjusted annually by FFIEC)
+- **Values:**
+  - Varying values
+
+### [tract\_to\_msa\_income\_percentage](#tract_to_msa_income_percentage)
+
+- **Description:** Percentage of tract median family income compared to MSA/MD median family income
+- **Values:**
+  - Varying values
+
+### [tract\_owner\_occupied\_units](#tract\_owner\_occupied\_units)
+
+- **Description:** Number of dwellings, including individual condominiums, that are lived in by the owner
+- **Values:**
+  - Varying values
+
+### [tract\_one\_to\_four\_family\_homes](#tract_one_to_four_family_homes)
+
+- **Description:** Dwellings that are built to houses with fewer than 5 families
+- **Values:**
+  - Varying values
+
+### [tract\_median\_age\_of\_housing\_units](#tract_median_age_of_housing_units)
+
+- **Description:** Tract median age of homes
+- **Values:**
+  - Varying values
