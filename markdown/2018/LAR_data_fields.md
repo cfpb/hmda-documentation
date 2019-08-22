@@ -54,9 +54,9 @@
 - **Description:** Derived dwelling type from Construction Method and Total Units fields for easier querying of specific records
 - **Values:**
   - Single Family (1-4 Units):Site-Built
-  - Multifamily:Site-Built
+  - Multifamily:Site-Built (5+ Units)
   - Single Family (1-4 Units):Manufactured
-  - Multifamily:Manufactured
+  - Multifamily:Manufactured (5+ Units)
 
 ### [conforming\_loan\_limit](#conforming_loan_limit)
 
