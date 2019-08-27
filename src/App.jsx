@@ -90,7 +90,6 @@ const App = () => {
             return <NotFound/>
           }
 
-
           return (
             <div className="App">
               <Link className="BackLink" to={`/${year}/${collection}/`}>{'\u2b05'} HMDA {collection}</Link>
