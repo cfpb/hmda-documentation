@@ -1,12 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Heading from '../common/Heading.jsx'
 import DataBrowser from './DataBrowser.jsx'
 import RateSpread from './RateSpread.jsx'
 import CheckDigit from './CheckDigit.jsx'
 
 const Tools = props => {
-  const { year } = props.match.params
+  const { year } = props
   return (
     <ul className="ProductCollection">
       <DataBrowser year={year} inList={true}/>

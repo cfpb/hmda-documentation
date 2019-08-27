@@ -5,8 +5,7 @@ import YEARS from '../constants/years'
 import './YearSelector.css'
 
 const YearSelector = props => {
-  const { params, url } = props.match
-  const { year } = params
+  const { year, url } = props
 
   return (
     <div className="YearSelector">

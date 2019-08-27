@@ -11,12 +11,15 @@ const links = {
 }
 
 const ADReports = props => {
+  const { year, inList, url } = props
     return (
       <Product
         heading="Aggregate and Disclosure Reports"
         lead="These reports summarize nationwide and MSA/MD lending activity."
-        list={links[props.year]}
-        inList={props.inList}
+        list={links[year]}
+        inList={inList}
+        year={year}
+        url={url}
       />
   )
 }

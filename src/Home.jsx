@@ -8,6 +8,7 @@ import Tools from './tools'
 import './Home.css'
 
 const Home = props => {
+  const { year, url } = props
   return (
     <div className="home">
       <div className="intro">
@@ -15,14 +16,20 @@ const Home = props => {
           <p className="lead">A collection of HMDA Documentation Resources</p>
         </Header>
       </div>
-      <YearSelector {...props}/>
+      <YearSelector year={year} url={url}/>
       <div>
-        <h2>HMDA Publications</h2>
-        <Publications {...props}/>
+        <h2><Link to={`/${year}/publications/`}>HMDA Publications</Link></h2>
+        <Publications year={year}/>
       </div>
       <div>
-        <h2>HMDA Tools</h2>
-        <Tools {...props}/>
+        <h2><Link to={`/${year}/tools/`}>HMDA Tools</Link></h2>
+        <Tools year={year}/>
+      </div>
+      <div>
+        <h2>Other HMDA Documentation</h2>
+          <ul>
+            <li><a href="https://cfpb.github.io/hmda-platform/">API Documentation</a></li>
+          </ul>
       </div>
     </div>
   )

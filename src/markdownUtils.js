@@ -1,8 +1,10 @@
 const slugMap = {
+  2017: {},
   2018: {
     'lar-data-fields': 'LAR_data_fields.md',
     'data-browser-filters': 'data_browser_filters.md',
-    'derived-data-fields': 'derived_data_fields.md'
+    'derived-data-fields': 'derived_data_fields.md',
+    'faq': 'FAQ.md'
   }
 }
 

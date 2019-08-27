@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Product from '../Product.jsx'
 
 const links = {
@@ -11,12 +10,15 @@ const links = {
 }
 
 const RateSpread = props => {
+  const { year, inList, url } = props
   return (
     <Product
       heading="Rate Spread"
       lead="This calculator provides rate spreads for HMDA reportable loans with a final action date on or after January 1st, 2018."
-      list={links[props.year]}
-      inList={props.inList}
+      list={links[year]}
+      inList={inList}
+      year={year}
+      url={url}
     />
   )
 }

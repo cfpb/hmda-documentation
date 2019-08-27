@@ -15,12 +15,15 @@ const links = {
 }
 
 const DataBrowser = props => {
+  const { year, inList, url } = props
   return (
     <Product
       heading="Data Browser"
       lead="This tool allows users to filter and download HMDA datasets."
-      list={links[props.year]}
-      inList={props.inList}
+      list={links[year]}
+      inList={inList}
+      year={year}
+      url={url}
     />
   )
 }

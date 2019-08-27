@@ -129,6 +129,7 @@ hr {
 
 .BackLink {
   font-family: SourceSansProBold;
+  text-transform: uppercase;
   font-size: 1.3rem;
   display: block;
   margin: 24px 0 -32px 0;

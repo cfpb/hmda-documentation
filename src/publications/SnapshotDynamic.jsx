@@ -16,12 +16,15 @@ const links = {
 }
 
 const SnapshotDynamic = props => {
+  const { year, inList, url } = props
   return (
     <Product
       heading="Snapshot and Dynamic National Loan Level Dataset"
       lead="These files contain the national HMDA datasets, modified by the Bureau to protect applicant and borrower privacy."
-      list={links[props.year]}
-      inList={props.inList}
+      list={links[year]}
+      inList={inList}
+      year={year}
+      url={url}
     />
   )
 }

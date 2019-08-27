@@ -8,6 +8,11 @@
   font-family: SourceSansPro;
 }
 
+.home h2 a {
+  color: #000;
+  text-decoration: none;
+}
+
 .home .lead {
   color: #5b616b;
   font-size: 2rem;

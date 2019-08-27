@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Product from '../Product.jsx'
 
 const links = {
@@ -15,12 +14,15 @@ const links = {
 }
 
 const ModifiedLar = props => {
+  const { year, inList, url } = props
   return (
     <Product
       heading="Modified Loan/Application Register (LAR)"
       lead="The modified LAR provides loan-level data for an individual financial institution, as modified by the Bureau to protect applicant and borrower privacy."
-      list={links[props.year]}
-      inList={props.inList}
+      list={links[year]}
+      inList={inList}
+      year={year}
+      url={url}
     />
   )
 }

@@ -7,7 +7,7 @@ import { getMarkdownUrl, isBadSlug } from './markdownUtils'
 
 const DynamicRenderer = props => {
   const [data, setData] = useState(null)
-  const { year, slug } = props.match.params
+  const { year, slug } = props
 
   if(isBadSlug(year, slug)) return <NotFound/>
 
