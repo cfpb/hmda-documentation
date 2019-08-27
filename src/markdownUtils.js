@@ -4,7 +4,8 @@ const slugMap = {
     'lar-data-fields': 'LAR_data_fields.md',
     'data-browser-filters': 'data_browser_filters.md',
     'derived-data-fields': 'derived_data_fields.md',
-    'faq': 'FAQ.md'
+    'faq': 'FAQ.md',
+    'ad-changes': 'ad_changes.md'
   }
 }
 

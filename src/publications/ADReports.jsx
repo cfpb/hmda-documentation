@@ -5,7 +5,7 @@ import Product from '../Product.jsx'
 const links = {
   2017: [],
   2018: [
-    <li key="0">A&D Report changes between 2017 and 2018</li>,
+    <li key="0"><Link to="/2018/ad-changes/">A&D Report Changes Between 2017 and 2018</Link></li>,
     <li key="1"><Link to="/2018/derived-data-fields/">Derived Data Fields</Link></li>
   ]
 }
