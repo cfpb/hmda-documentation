@@ -25,6 +25,8 @@ const SnapshotDynamic = props => {
       inList={inList}
       year={year}
       url={url}
+      collection="publications"
+      slug="snapshot-dynamic"
     />
   )
 }

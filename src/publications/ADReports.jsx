@@ -20,6 +20,8 @@ const ADReports = props => {
         inList={inList}
         year={year}
         url={url}
+        collection="publications"
+        slug="ad-reports"
       />
   )
 }

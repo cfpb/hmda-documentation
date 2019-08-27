@@ -51,6 +51,7 @@ body {
 .App h1 {
   margin-bottom: 0;
 }
+
 .Markdown-Wrapper {
   max-width: 1040px;
   margin: 0 auto;
@@ -117,16 +118,6 @@ hr {
   color: #4c2c92;
 }
 
-.PerYear {
-  max-width: 1040px;
-  margin: 0 auto;
-  padding: 0 3rem;
-}
-.PerYear h1 {
-  font-size: 4rem;
-  margin-top: 1em;
-}
-
 .BackLink {
   font-family: SourceSansProBold;
   text-transform: uppercase;
@@ -135,27 +126,14 @@ hr {
   margin: 24px 0 -32px 0;
 }
 
-.YearLinksWrapper > a {
-  display: inline-block;
-  color: #212121;
-  font-family: SourceSansProBold;
-  margin: 0;
-  padding: 0;
+.Product h4 a {
+  color: #000;
   text-decoration: none;
 }
 
-.YearLinksWrapper > a:hover {
+.Product h4 a:hover {
   color: #0071bc;
   text-decoration: underline;
-}
-
-.YearLinksWrapper h2 {
-  margin: 0;
-}
-
-.YearLink {
-  text-transform: capitalize;
-  margin-top: 0.25em;
 }
 
 .Product p {

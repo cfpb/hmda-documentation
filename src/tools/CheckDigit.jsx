@@ -11,6 +11,8 @@ const CheckDigit = props => {
       inList={inList}
       year={year}
       url={url}
+      collection="tools"
+      slug="check-digit"
     />
   )
 }

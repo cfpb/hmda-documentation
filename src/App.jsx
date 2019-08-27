@@ -94,7 +94,7 @@ const App = () => {
           return (
             <div className="App">
               <Link className="BackLink" to={`/${year}/${collection}/`}>{'\u2b05'} HMDA {collection}</Link>
-              <Component year={year} inList={false} url={url} />
+              <Component year={year} inList={false} url={url} collection={collection} slug={slug}/>
             </div>
           )
         }}/>

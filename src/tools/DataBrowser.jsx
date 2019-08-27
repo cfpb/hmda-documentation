@@ -24,6 +24,8 @@ const DataBrowser = props => {
       inList={inList}
       year={year}
       url={url}
+      collection="tools"
+      slug="data-browser"
     />
   )
 }

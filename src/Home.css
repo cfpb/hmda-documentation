@@ -13,6 +13,11 @@
   text-decoration: none;
 }
 
+.home h2 a:hover {
+  color: #0071bc;
+  text-decoration: underline;
+}
+
 .home .lead {
   color: #5b616b;
   font-size: 2rem;

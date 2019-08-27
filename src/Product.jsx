@@ -1,15 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Heading from './common/Heading.jsx'
 import YearSelector from './common/YearSelector.jsx'
 
 const Product = props => {
-  const { heading, lead, list, inList, url, year } = props
+  const { heading, lead, list, inList, url, year, collection, slug } = props
   let header
 
   if(!list.length) return null
 
   if(inList){
-    header = <h4>{heading}</h4>
+    header = <h4><Link to={`/${year}/${collection}/${slug}/`}>{heading}</Link></h4>
   }else{
     header = (
       <Heading type={1} headingText={heading}>
@@ -23,8 +24,8 @@ const Product = props => {
       <div className="intro">
         { header }
         { inList ? <p>{lead}</p> : null}
-        { inList ? null : <YearSelector year={year} url={url}/> }
-        { inList ? null : <h4>Documentation</h4> }
+        { inList || slug === 'check-digit' ? null : <YearSelector year={year} url={url}/> }
+        { inList || slug === 'check-digit' ? null : <h4>Documentation</h4> }
         <ul>
           {list}
         </ul>
