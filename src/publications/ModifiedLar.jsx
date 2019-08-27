@@ -1,0 +1,28 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+import Product from '../Product.jsx'
+
+const links = {
+  2017: [
+    <li key="0"><a href="/data-publication/documents#modified-lar">Supporting Documentation</a></li>,
+    <li key="1"><a href="https://github.com/cfpb/hmda-platform/blob/master/docs/v2/ModifiedLarWithExcel.md">How to Open a Modified LAR Text Files with Excel</a></li>
+  ],
+  2018: [
+    <li key="2"><a href="/data-publication/documents#modified-lar">Supporting Documentation</a></li>,
+    <li key="3"><a href="https://github.com/cfpb/hmda-platform/blob/master/docs/v2/ModifiedLarWithExcel.md">How to Open a Modified LAR Text Files with Excel</a></li>,
+    <li key="4"><a href="https://github.com/cfpb/hmda-platform/blob/master/docs/v2/UsingModifiedLar.md">Using Modified LAR Data</a></li>
+  ]
+}
+
+const ModifiedLar = props => {
+  return (
+    <Product
+      heading="Modified Loan/Application Register (LAR)"
+      lead="The modified LAR provides loan-level data for an individual financial institution, as modified by the Bureau to protect applicant and borrower privacy."
+      list={links[props.year]}
+      inList={props.inList}
+    />
+  )
+}
+
+export default ModifiedLar

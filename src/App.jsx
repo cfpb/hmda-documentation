@@ -1,5 +1,5 @@
 import React from 'react'
-import { Switch, Route } from 'react-router-dom'
+import { Switch, Redirect, Route } from 'react-router-dom'
 
 import Header from './common/Header'
 import Home from './Home'
@@ -15,9 +15,28 @@ const App = () => {
     <React.Fragment>
       <Header/>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/:year/" component={PerYear} />
-        <Route path="/:year/:slug/" component={DynamicRenderer} />
+        <Redirect exact from="/" to="/2018/" />
+        <Route exact path="/:year/" render={props => {
+          return (
+            <div className="App">
+              <Home {...props}/>
+            </div>
+          )
+        }}/>
+        <Route exact path="/:year/:collection/" render={props => {
+          return (
+            <div className="App">
+              <Home year={props.match.params.year}/>
+            </div>
+          )
+        }}/>
+        <Route exact path="/:year/:collection/:slug/" render={props => {
+          return (
+            <div className="App">
+              <Home year={props.match.params.year}/>
+            </div>
+          )
+        }}/>
         <Route component={NotFound} />
       </Switch>
       <Footer />

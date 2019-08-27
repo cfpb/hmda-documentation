@@ -42,6 +42,15 @@ body {
   z-index: 100;
 }
 
+.App {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.App h1 {
+  margin-bottom: 0;
+}
 .Markdown-Wrapper {
   max-width: 1040px;
   margin: 0 auto;
@@ -146,4 +155,8 @@ hr {
 .YearLink {
   text-transform: capitalize;
   margin-top: 0.25em;
+}
+
+.Product p {
+  margin: 0 0 0.5em 0;
 }
