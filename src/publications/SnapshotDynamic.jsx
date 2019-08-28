@@ -11,7 +11,10 @@ const links = {
   ],
   2018: [
     <li key="4"><Link to="/2018/lar-data-fields/">Public HMDA Data Fields with Values and Definitions</Link></li>,
-    <li key="5"><Link to="/2018/derived-data-fields/">Derived Data Fields</Link></li>
+    <li key="5"><Link to="/2018/derived-data-fields/">Derived Data Fields</Link></li>,
+    <li key="6"><Link to="/2018/public-lar-schema/">Public LAR Schema</Link></li>,
+    <li key="7"><Link to="/2018/public-ts-schema/">Public Transmittal Sheet Schema</Link></li>,
+    <li key="8"><Link to="/2018/public-panel-schema/">Public Panel Schema</Link></li>
   ]
 }
 
