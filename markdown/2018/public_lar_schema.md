@@ -1,3 +1,5 @@
+## Public LAR Schema
+
 |Field|Max Length|Type|
 |-----|----------|----|
 activity\_year|4|Numeric

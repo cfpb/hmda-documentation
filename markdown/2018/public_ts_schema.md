@@ -1,3 +1,5 @@
+## Public Transmittal Sheet Schema
+
 Fields|Max Length|Type|
 ------|----------|----|
 activity\_year|4|Numeric
