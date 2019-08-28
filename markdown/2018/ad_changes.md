@@ -18,7 +18,7 @@ National Aggregate reports are not produced for data collected in or after 2018.
 |Applications by Tract|1 - Applications by Tract|- Removed Minimum Population and Median Income columns<br>- Added Applications Received row (total of all action taken dispositions for each census tract)|
 |Loans Purchased by Tract|2 - Loans Purchased by Tract|No Change|
 |Applications by Race and Sex|All reports in Series 4: By Race|- Aggregated all loan types into one report, Applications by Race and Sex<br>- Added Free Form Text Only field for Race and Ethnicity reporting|
-|Applications by Income, Race, and Ethnicity|All reports in Series 5: By App Income<br>- Aggregated all loan types into one report, Applications by Income, Race, and Ethnicity<br>- Added Free Form Text Only field for Race and Ethnicity reporting|
+|Applications by Income, Race, and Ethnicity|All reports in Series 5: By App Income|- Aggregated all loan types into one report, Applications by Income, Race, and Ethnicity<br>- Added Free Form Text Only field for Race and Ethnicity reporting|
 |Applications by Median Age of Homes |9 - Loans by Median Age of Homes|- Added the 2011-Present year range<br>- Added Applications Received row (total of all action taken dispositions for each census tract)|
 
 #### Reports Added to 2018: 

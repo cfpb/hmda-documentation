@@ -62,6 +62,19 @@ body {
   margin-top: 2em;
 }
 
+.Markdown-Wrapper table {
+  border-collapse: collapse;
+}
+
+.Markdown-Wrapper th {
+  background-color: #ddd;
+}
+
+.Markdown-Wrapper td, .Markdown-Wrapper th {
+  border: 1px solid #222;
+  padding: 0.5em;
+}
+
 a {
   color: #0071bc;
   text-decoration: underline;
