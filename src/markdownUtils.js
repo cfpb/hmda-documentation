@@ -5,7 +5,10 @@ const slugMap = {
     'data-browser-filters': 'data_browser_filters.md',
     'derived-data-fields': 'derived_data_fields.md',
     'faq': 'FAQ.md',
-    'ad-changes': 'ad_changes.md'
+    'ad-changes': 'ad_changes.md',
+    'public-lar-schema': 'public_lar_schema.md',
+    'public-panel-schema': 'public_panel_schema.md',
+    'public-ts-schema': 'public_ts_schema.md'
   }
 }
 
