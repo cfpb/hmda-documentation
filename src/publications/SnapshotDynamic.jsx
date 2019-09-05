@@ -4,10 +4,10 @@ import Product from '../Product.jsx'
 
 const links = {
   2017: [
-    <li key="0" ><a href="https://s3.amazonaws.com/cfpb-hmda-public/prod/snapshot-data/2017_publicstatic_dataformat.pdf">Snapshot File Specifications – LAR, TS, and Reporter Panel</a></li>,
-    <li key="1"><a href="https://s3.amazonaws.com/cfpb-hmda-public/prod/snapshot-data/2017_publicstatic_codesheet.pdf">Snapshot File Specifications – LAR Code Sheet</a></li>,
-    <li key="2"><a href="https://github.com/cfpb/hmda-platform/blob/v1.x/Documents/2017_Dynamic_LAR_Spec.csv">Dynamic File Specifications – Loan/Application Records</a></li>,
-    <li key="3"><a href="https://github.com/cfpb/hmda-platform/blob/v1.x/Documents/2017_Dynamic_TS_Spec.csv">Dynamic File Specifications – Transmittal Sheet Records</a></li>
+    <li key="0" ><a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/snapshot-data/2017_publicstatic_dataformat.pdf">Snapshot File Specifications – LAR, TS, and Reporter Panel</a></li>,
+    <li key="1"><a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/snapshot-data/2017_publicstatic_codesheet.pdf">Snapshot File Specifications – LAR Code Sheet</a></li>,
+    <li key="2"><a target="_blank" rel="noopener noreferrer" href="https://github.com/cfpb/hmda-platform/blob/v1.x/Documents/2017_Dynamic_LAR_Spec.csv">Dynamic File Specifications – Loan/Application Records</a></li>,
+    <li key="3"><a target="_blank" rel="noopener noreferrer" href="https://github.com/cfpb/hmda-platform/blob/v1.x/Documents/2017_Dynamic_TS_Spec.csv">Dynamic File Specifications – Transmittal Sheet Records</a></li>
   ],
   2018: [
     <li key="4"><Link to="/2018/lar-data-fields/">Public HMDA Data Fields with Values and Definitions</Link></li>,

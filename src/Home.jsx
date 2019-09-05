@@ -28,7 +28,7 @@ const Home = props => {
       <div>
         <h2>Other HMDA Documentation</h2>
           <ul>
-            <li><a href="https://cfpb.github.io/hmda-platform/">API Documentation</a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://cfpb.github.io/hmda-platform/">API Documentation</a></li>
           </ul>
       </div>
     </div>
