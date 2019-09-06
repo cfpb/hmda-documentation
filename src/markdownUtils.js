@@ -8,7 +8,8 @@ const slugMap = {
     'ad-changes': 'ad_changes.md',
     'public-lar-schema': 'public_lar_schema.md',
     'public-panel-schema': 'public_panel_schema.md',
-    'public-ts-schema': 'public_ts_schema.md'
+    'public-ts-schema': 'public_ts_schema.md',
+    'panel-data-fields': 'panel_data_fields.md'
   }
 }
 
