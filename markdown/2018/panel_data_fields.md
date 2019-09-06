@@ -1,8 +1,8 @@
 ## Public Panel data fields with values and definitions
 
 ### [activity\_year](#activity_year)
-**Description:** The collection year of the HMDA data to which the Panel file relates 
-**Values:** 
+**Description:** The collection year of the HMDA data to which the Panel file relates
+**Values:**
 - 2018
 
 ### [lei](#lei)
@@ -63,7 +63,7 @@
 - Various values
 
 ### [other\_lender\_code](#other_lender_code)
-**Description:** 
+**Description:**
 **Values:**
 - 0: Depository Institution
 - 1: MBS of state member bank
