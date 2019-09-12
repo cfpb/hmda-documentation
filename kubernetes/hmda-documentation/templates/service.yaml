@@ -27,7 +27,7 @@ metadata:
   name: {{ include "hmda-documentation.fullname" . }}-ambassador
   annotations:
     getambassador.io/config: |
-      apiVersion: ambassador/v0
+      apiVersion: ambassador/v1
       kind: Mapping
       name: data_documentation_mapping
       ambassador_id: ambassador-default-1
