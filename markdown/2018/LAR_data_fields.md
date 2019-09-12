@@ -362,7 +362,7 @@
 
 ### [income](#income)
 
-- **Description:** The gross annual income, in dollars, relied on in making the credit decision, or if a credit decision was not made, the gross annual income relied on in processing the application
+- **Description:** The gross annual income, in thousands of dollars, relied on in making the credit decision, or if a credit decision was not made, the gross annual income relied on in processing the application
 - **Values:**
   - Varying values
 
