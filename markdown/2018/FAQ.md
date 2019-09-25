@@ -13,4 +13,4 @@ Answer: A comma-separated values (CSV) file derives its name from a file contain
 Answer: The columns of the Static and Dynamic dataset, including data available through the Data Browser, have been reordered to create logical groupings. This reordering was done to facilitate analysis in desktop spreadsheet software for files pulled from the Data Browser.
 
 - **I have a suggestion/improvement, who can I contact?** 
-Answer: For questions/suggestions regarding the HMDA Data Browser, contact hmdafeedback@cfpb.gov.
+Answer: For questions/suggestions regarding the HMDA Data Browser, contact hmdahelp@cfpb.gov.
