@@ -9,6 +9,7 @@ const slugMap = {
     'public-lar-schema': 'public_lar_schema.md',
     'public-panel-schema': 'public_panel_schema.md',
     'public-ts-schema': 'public_ts_schema.md',
+    'ts-data-fields': 'ts_data_fields.md',
     'panel-data-fields': 'panel_data_fields.md'
   }
 }
