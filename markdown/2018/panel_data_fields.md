@@ -47,7 +47,7 @@
 
 - Varying values
 
-### [respondent\_rssd](#respondent_id)
+### [respondent\_rssd](#respondent_rssd)
 **Description:** The National Information Center RSSD of the institution
 
 **Values:**
