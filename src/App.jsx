@@ -66,7 +66,7 @@ const App = () => {
           if(isBadYear(year)) return <NotFound/>
 
           if(collection === 'fig')
-            return makeCollectionPage(FigLinks, 'Filing Instructions Guide', year, url)
+            return makeCollectionPage(FigLinks, 'Filing Instructions Guide (FIG)', year, url)
           if(collection === 'publications')
             return makeCollectionPage(Publications, 'HMDA Publications', year, url)
           if(collection === 'tools')
