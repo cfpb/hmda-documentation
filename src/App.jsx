@@ -9,6 +9,7 @@ import YearSelector from './common/YearSelector.jsx'
 import Home from './Home'
 import DynamicRenderer from './DynamicRenderer'
 import { isBadYear, isBadSlug } from './markdownUtils'
+import FigLinks from './FigLinks.jsx'
 import Publications from './publications'
 import ModifiedLar from './publications/ModifiedLar.jsx'
 import ADReports from './publications/ADReports.jsx'
@@ -64,13 +65,14 @@ const App = () => {
 
           if(isBadYear(year)) return <NotFound/>
 
-          if(collection === 'publications'){
+          if(collection === 'fig')
+            return makeCollectionPage(FigLinks, 'Filing Instructions Guide (FIG)', year, url)
+          if(collection === 'publications')
             return makeCollectionPage(Publications, 'HMDA Publications', year, url)
-          }else if(collection === 'tools'){
+          if(collection === 'tools')
             return makeCollectionPage(Tools, 'HMDA Tools', year, url)
-          }else if(isBadSlug(year, collection)){
+          if(isBadSlug(year, collection))
             return <NotFound/>
-          }
 
           return (
             <div className="App">
