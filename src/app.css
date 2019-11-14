@@ -75,6 +75,10 @@ body {
   padding: 0.5em;
 }
 
+.Markdown-Wrapper img {
+  width: 100%;
+}
+
 a {
   color: #0071bc;
   text-decoration: underline;
