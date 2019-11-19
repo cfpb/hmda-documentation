@@ -13,6 +13,7 @@ const DynamicRenderer = props => {
   useEffect(function (){
     fetch(getMarkdownUrl(year, slug))
       .then(res => {
+        if(res.status === 404) throw new Error('404')
         res.text().then(setData)
       })
       .catch(e => {
