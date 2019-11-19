@@ -13,6 +13,10 @@
 
 - **Description:** Select this option to download datasets by the 5 digit derived MSA (metropolitan statistical area) or MD (metropolitan division) code. A MSA/MD is an area that has at least one urbanized area of 50,000 or more population.
 
+### [County](#County)
+
+- **Description:** Select this option to download datasets by county.
+
 ### Pre-Selected Filters
 
 ### [action\_taken](#action_taken)
