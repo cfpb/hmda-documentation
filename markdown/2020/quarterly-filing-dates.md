@@ -6,4 +6,4 @@ If you need additional information to help get your file ready you can refer to 
 
 See below for information on HMDA Quarterly Filing period dates:
 
-![](/static/media/quarterly_filing.f43264d8.png)
+![](/documentation/static/media/quarterly_filing.f43264d8.png)
