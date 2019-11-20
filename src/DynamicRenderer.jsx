@@ -3,18 +3,22 @@ import Markdown from 'markdown-to-jsx'
 import { Link } from 'react-router-dom'
 import LoadingIcon from './common/LoadingIcon.jsx'
 import NotFound from './common/NotFound.jsx'
-import { getMarkdownUrl, isBadSlug } from './markdownUtils'
+import { getMarkdownUrl } from './markdownUtils'
 
 const DynamicRenderer = props => {
   const [data, setData] = useState(null)
+  const [error, setError] = useState(null)
   const { year, slug } = props
 
-  if(isBadSlug(year, slug)) return <NotFound/>
-
   useEffect(function (){
-    fetch(getMarkdownUrl(year, slug)).then(res => {
-      res.text().then(setData)
-    })
+    fetch(getMarkdownUrl(year, slug))
+      .then(res => {
+        if(res.status === 404) throw new Error('404')
+        res.text().then(setData)
+      })
+      .catch(e => {
+        setError(e)
+      })
   }, [])
 
   useEffect(function (){
@@ -29,6 +33,8 @@ const DynamicRenderer = props => {
       }, 0)
     }
   })
+
+  if(error) return <NotFound />
 
   return (
     <div className="Markdown-Wrapper">
