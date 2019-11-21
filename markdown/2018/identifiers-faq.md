@@ -1,7 +1,7 @@
 ##Institution Identifiers Frequently Asked Questions
 
 ### Institution Identifiers
-The following information below details guidance regarding institution identifiers in 2017 and 2018. 
+The following information below details guidance regarding institution identifiers in 2017, 2018, and beyond. 
 
 **What are the institution identifiers for 2018?** 
 For 2018 and forward, Legal Entity Identifier (LEI) sourced from a Global LEI Foundation (GLEIF) operating unit is the unique identifier for HMDA Filers. Institutions can be searched by name or LEI on this site.
