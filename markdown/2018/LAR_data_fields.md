@@ -994,15 +994,15 @@
 - **Values:**
   - Varying values
 
-### [tract\_minority\_population\_percent](#tract_minority_population_percent)
-
-- **Description:** Percentage of minority population to total population for tract, rounded to two decimal places
-- **Values:**
-  - Varying values
-
 ### [ffiec\_msa\_md\_median\_family\_income](#ffiec_msa_md_median_family_income)
 
 - **Description:** FFIEC Median family income in dollars for the MSA/MD in which the tract is located (adjusted annually by FFIEC)
+- **Values:**
+  - Varying values
+
+### [tract\_minority\_population\_percent](#tract_minority_population_percent)
+
+- **Description:** Percentage of minority population to total population for tract, rounded to two decimal places
 - **Values:**
   - Varying values
 
