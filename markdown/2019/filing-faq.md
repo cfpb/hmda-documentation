@@ -27,31 +27,31 @@ You can submit test data to the Bureau via the Beta submission platform found he
 **What tools can I use to help prepare my file for submission?**
 You can use the **Filing Instructions Guide (FIG)** for the applicable year you are filing data for. Filing Instructions Guides for each year can be found on the home page of https://ffiec.cfpb.gov/, under the “Help For Filers” section. 
 
-LAR File Format: **Section 3.3 of the FIG** provides filers with the proper steps to format your LAR File. An example of a correctly formatted file can be found here: https://github.com/cfpb/hmda-platform/blob/master/data/2019/clean_test_files/bank_1/clean_file_100_rows_Bank1.txt.
++ LAR File Format: **Section 3.3 of the FIG** provides filers with the proper steps to format your LAR File. An example of a correctly formatted file can be found here: https://github.com/cfpb/hmda-platform/blob/master/data/2019/clean_test_files/bank_1/clean_file_100_rows_Bank1.txt.
 
-Data Fields: **Section 3.4 of the FIG** includes all acceptable values and exemption codes for the various data fields. **Sections 4.2.1 and 4.2.2 of the FIG** detail data specifications for each field.
++ Data Fields: **Section 3.4 of the FIG** includes all acceptable values and exemption codes for the various data fields. **Sections 4.2.1 and 4.2.2 of the FIG** detail data specifications for each field.
 
-Edits: Syntactical, Validity, Quality, and Macro quality edits can be found in **Section 5.3 of the FIG**. 
++ Edits: Syntactical, Validity, Quality, and Macro quality edits can be found in **Section 5.3 of the FIG**.  
 
-The **LAR Formatting Tool** assists institutions that are not using their own vendor software in formatting their LAR files correctly. In order to successfully use the tool, Excel macros need to be enabled; please work with your IT department if this is not the case. Additionally, institutions should take note of the annotations that appear when hovering over each cell. These annotations describe what values can be included in each cell. The first tab of the tool entitled “Resources” gives instructions on use.
+The **LAR Formatting Tool** assists institutions that are not using their own vendor software in formatting their LAR files correctly. In order to successfully use the tool, Excel macros need to be enabled; please work with your IT department if this is not the case. Additionally, institutions should take note of the annotations that appear when hovering over each cell. These annotations describe what values can be included in each cell. The first tab of the tool entitled “Resources” gives instructions on use.  
 
 The **File Format Verification Tool** is a resource for testing whether your file meets certain formatting requirements specified in the HMDA FIG, specifically that the file
-is pipe-delimited;
-has the proper number of data fields; and
-has data fields formatted as integers, where necessary.
-The FFVT does not allow you to submit HMDA data. Additionally, there is a unique File Format Verification Tool for each HMDA data collection year, so please select the relevant year before uploading a file.
+- is pipe-delimited;
+- has the proper number of data fields; and
+- has data fields formatted as integers, where necessary.
+The FFVT does not allow you to submit HMDA data. Additionally, there is a unique File Format Verification Tool for each HMDA data collection year, so please select the relevant year before uploading a file.  
 
-The **Rate Spread calculator** allows institutions to enter their loan data manually, or upload a CSV file of loan information that will help calculate the rate spread. 
+The **Rate Spread calculator** allows institutions to enter their loan data manually, or upload a CSV file of loan information that will help calculate the rate spread.  
 
 The **Check Digit tool** can be used to either generate check digits or validate ULIs. 
 
 
 **I’m having issues when I try to upload my file, what should I do?**
 If you are having issues uploading a new file and are receiving errors from a previous upload, please refresh the page, log out, clear your browser’s cache (clear your browser’s history), and log back in, and upload your file again. Additionally, if you are using Internet Explorer, we have found that filers have fewer browser caching issues using Google Chrome. If you continue to experience timeouts or other upload errors, we would recommend the following URLs are whitelisted in your DLP to allow for transfer of HMDA files.
-•	ffiec.cfpb.gov
-•	ffiec-auth.cfpb.gov
-•	ffiec-api.cfpb.gov
-•	ffiec.beta.cfpb.gov
+ - ffiec.cfpb.gov
+ - ffiec-auth.cfpb.gov
+ - ffiec-api.cfpb.gov
+ - ffiec.beta.cfpb.gov
 
 
 ### Submission
