@@ -32,18 +32,26 @@ LAR File Format: **Section 3.3 of the FIG** provides filers with the proper step
 Data Fields: **Section 3.4 of the FIG** includes all acceptable values and exemption codes for the various data fields. **Sections 4.2.1 and 4.2.2 of the FIG** detail data specifications for each field.
 
 Edits: Syntactical, Validity, Quality, and Macro quality edits can be found in **Section 5.3 of the FIG**. 
+
 The **LAR Formatting Tool** assists institutions that are not using their own vendor software in formatting their LAR files correctly. In order to successfully use the tool, Excel macros need to be enabled; please work with your IT department if this is not the case. Additionally, institutions should take note of the annotations that appear when hovering over each cell. These annotations describe what values can be included in each cell. The first tab of the tool entitled “Resources” gives instructions on use.
+
 The **File Format Verification Tool** is a resource for testing whether your file meets certain formatting requirements specified in the HMDA FIG, specifically that the file
 is pipe-delimited;
 has the proper number of data fields; and
 has data fields formatted as integers, where necessary.
 The FFVT does not allow you to submit HMDA data. Additionally, there is a unique File Format Verification Tool for each HMDA data collection year, so please select the relevant year before uploading a file.
+
 The **Rate Spread calculator** allows institutions to enter their loan data manually, or upload a CSV file of loan information that will help calculate the rate spread. 
+
 The **Check Digit tool** can be used to either generate check digits or validate ULIs. 
 
 
 **I’m having issues when I try to upload my file, what should I do?**
-If you are having issues uploading a new file and are receiving errors from a previous upload, please refresh the page, log out, clear your browser’s cache (clear your browser’s history), and log back in, and upload your file again. Additionally, if you are using Internet Explorer, we have found that filers have fewer browser caching issues using Google Chrome.
+If you are having issues uploading a new file and are receiving errors from a previous upload, please refresh the page, log out, clear your browser’s cache (clear your browser’s history), and log back in, and upload your file again. Additionally, if you are using Internet Explorer, we have found that filers have fewer browser caching issues using Google Chrome. If you continue to experience timeouts or other upload errors, we would recommend the following URLs are whitelisted in your DLP to allow for transfer of HMDA files.
+•	ffiec.cfpb.gov
+•	ffiec-auth.cfpb.gov
+•	ffiec-api.cfpb.gov
+•	ffiec.beta.cfpb.gov
 
 
 ### Submission
@@ -60,12 +68,6 @@ Annual HMDA data submissions for the 2019 filing year are accepted January 1 - M
 **Should I file quarterly?**
 Beginning January 1, 2020, the 2015 HMDA Final Rule requires quarterly reporting for financial institutions that reported a combined total of at least 60,000 applications and covered loans, excluding purchased covered loans, for the preceding calendar year. Thus, in addition to their annual data submission, these larger-volume reporters will submit HMDA data for each of the first three quarters of the year on a quarterly basis. Further information can be found in Regulation C, 12 CFR 1003.5(a)(1)(ii). 
 
-**I'm experiencing timeout errors during the upload process. What do I do?**
-If you experience timeouts or other upload errors, we would recommend the following URLs are whitelisted in your DLP to allow for transfer of HMDA files.
-•	ffiec.cfpb.gov
-•	ffiec-auth.cfpb.gov
-•	ffiec-api.cfpb.gov
-•	ffiec.beta.cfpb.gov
 
 
 ### Resubmissions
