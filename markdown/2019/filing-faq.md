@@ -3,7 +3,7 @@
 ### Account Registration
 
 **What information do I need to provide to register my financial institution?**
-To register your financial institution on the HMDA platform institutions you will need to provide your institution name, LEI (legal entity identifier), tax ID number, email domain (example: cfpb.gov), and agency code. Registration is a two-step process. You must create an account **and** register your institution in the system. You can register your financial institution here: https://hmdahelp.consumerfinance.gov/accounthelp/.
+To register your financial institution on the HMDA platform institutions you will need to provide your institution name, LEI (legal entity identifier), tax ID number, email domain (example: cfpb.gov), and agency code. Registration is a two-step process. You must create a filer account **and** register your institution in the system. You can register your financial institution here: https://hmdahelp.consumerfinance.gov/accounthelp/. Do not use a personal email to register for an account. The HMDA platform is designed to authenticate users based upon a financial institution’s registered domain email. If you do not have a financial institution domain email , contact HMDA Help.
 
 **What is a Legal Entity Identifier (LEI)?**
 Every institution that files a HMDA submission will be required to obtain a LEI for their submission whether they are exempt or not. The Global LEI Foundation website provides a list of LEI issuing organizations at https://www.gleif.org/en/about-lei/get-an-lei-find-lei-issuing-organizations. A financial institution may obtain a LEI, for HMDA reporting purposes, from any one of the issuing organizations listed on the web site. For general information on the “LEI,” see section 5.2 of the HMDA Small Entity Compliance Guide, and Regulation C, 12 CFR §§ 1003.4(a)(1)(i)(A), effective January 1, 2018, and 1003.5(a)(3)(vii), effective January 1, 2019.
@@ -47,7 +47,7 @@ The **Check Digit tool** can be used to either generate check digits or validate
 
 
 **I’m having issues when I try to upload my file, what should I do?**
-If you are having issues uploading a new file and are receiving errors from a previous upload, please refresh the page, log out, clear your browser’s cache (clear your browser’s history), and log back in, and upload your file again. Additionally, if you are using Internet Explorer, we have found that filers have fewer browser caching issues using Google Chrome. If you continue to experience timeouts or other upload errors, we would recommend the following URLs are whitelisted in your DLP to allow for transfer of HMDA files.
+If you are having issues uploading a new file and are receiving errors from a previous upload, please refresh the page, log out, clear your browser’s cache (clear your browser’s history), and log back in, and upload your file again. Additionally, if you are using Internet Explorer, we have found that filers have fewer browser caching issues using Google Chrome. The time to upload may vary depending on the size of your institution’s LAR(s).  In some cases, very large files can take a day to fully load.  Be sure to allocate enough time for the upload process to complete prior to the filing deadline.  Do not refresh or close the browser window while the file is uploading. If you continue to experience timeouts or other upload errors, we would recommend the following URLs are whitelisted in your DLP to allow for transfer of HMDA files.
  - ffiec.cfpb.gov
  - ffiec-auth.cfpb.gov
  - ffiec-api.cfpb.gov
@@ -55,6 +55,9 @@ If you are having issues uploading a new file and are receiving errors from a pr
 
 
 ### Submission
+
+**When is the filing period?**
+The filing period is between January 1 and March 1 of each year.  The HMDA platform for each filing period opens January 1st.  The submission deadline is March 1st.  
 
 **How do I know my file was submitted?**
 Upon signing and submitting your file, an email confirming your submission will be sent to the email address on file. Additionally, when you log into your account, you should see a message stating:
